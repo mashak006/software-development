@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.list{
+    display: flex;
+    
+    list-style-type: none;
+}
+.list li{
+   margin: 10px;
+   
+}
+#navigation
+{display: flex;
+    justify-content: right;
+    
+
+
+}
+.list li a{
+    color: black; 
+    text-decoration: none;
+     font-size:20px ;
+
+}
+#home{display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.main--container{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    height:100vh ;
+    align-items: left;
+}
+#leaders{
+    font-size: 50px;
+    margin-bottom:15px ;
+} 
+.blue{
+    color: blue;
+}
+.para{
+    font-size: 10px;
+
+}
+.para-div{
+    width: 300px;
+    margin-bottom:15px ;
+    
+}
+.btn{ background-color: blue;
+    color: white;
+    font-size: medium;
+    padding: 10px; ;
+    border-radius: 40px;
+    border:none ;
+    font-weight: bolder;
+
+}
+#blog{
+    background-color: blue;
+    color: white;
+    
+}
+.Architectural{
+    font-size: 10px;
+    margin: 15px;
+    
+} 
+.h2{
+    font-size: 15px;
+}
+.services{
+    display: flex;
+    margin: 20px;
+    
+}
+.service{
+    margin: 20px;
+
+}
+
+
+
+
+#About{
+    margin: 15px;
+    color: black;
+padding: 10px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+
+}
+.h5cat{
+    margin-top: 50px;
+    padding: 10px;
+}
+.p-comp{
+    margin: 20px;
+}
+.image{
+    
+    margin-top: -10px;
+
+    width: 50%;
+    height: 100%;
+
+}
+.view-case{
+    color: blue;
+    border-radius: 40px;
+    padding: 10px;
+    border-color: blue;
+    font-weight: bold;
+    background-color: transparent;
+}
+.single{
+    font: size 40px;
+    margin-bottom: 10px;
+}
+#footer{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.div-about{
+    margin: 35px;
+
+
+}
+.li-team{
+    list-style: none;
+}
+.h3-about{
+    margin-bottom: 20px;
+}
+#footer-atank{
+    display: flex;
+}
+
+
+
+
+
+
+
+
